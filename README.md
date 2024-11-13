@@ -4,22 +4,6 @@ User API
 
 A RESTful API built with Node.js, Express, and MongoDB for managing users. This API allows for creating, reading, updating, and deleting (CRUD) user records, with validation on inputs to ensure data integrity.
 
-Project Structure
-
-user-api
-├── config
-│   └── db.js              # MongoDB connection setup
-├── controllers
-│   └── userController.js   # User-related operations
-├── models
-│   └── User.js             # User Mongoose schema
-├── routes
-│   └── userRoutes.js       # User routes
-├── .env
-├── index.js
-├── package.json
-└── README.md
-
 Key Files
 
 config/db.js: Sets up the MongoDB connection.
